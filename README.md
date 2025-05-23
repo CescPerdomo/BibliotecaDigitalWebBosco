@@ -7,7 +7,7 @@ Este es un sistema web completo de gestión de biblioteca, desarrollado con tecn
 
 ---
 
-## 🌐 Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 | Componente               | Tecnología / Herramienta         |
 |--------------------------|----------------------------------|
@@ -23,60 +23,9 @@ Este es un sistema web completo de gestión de biblioteca, desarrollado con tecn
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
-biblioteca-web/
-├── build/                 # Archivos compilados generados por NetBeans
-├── dist/
-│   └── biblioteca-web.war # Archivo WAR generado para el despliegue en Tomcat
-├── nbproject/             # Archivos de configuración interna de NetBeans
-│   ├── project.properties
-│   └── private/
-├── src/
-│   ├── dao/               # Objetos de Acceso a Datos (DAO) para la interacción con la base de datos
-│   │   ├── AuthDAO.java
-│   │   ├── MaterialDAO.java
-│   │   ├── MoraDAO.java
-│   │   ├── MoraResumenDAO.java
-│   │   ├── PrestamoDAO.java
-│   │   └── UsuarioDAO.java
-│   ├── modelo/            # Clases del modelo que representan las entidades de negocio
-│   │   ├── Material.java
-│   │   ├── Mora.java
-│   │   ├── Prestamo.java
-│   │   ├── Role.java
-│   │   └── Usuario.java
-│   ├── servlet/           # Servlets que manejan las solicitudes y respuestas
-│   │   ├── LoginServlet.java
-│   │   ├── BuscarMaterialServlet.java
-│   │   ├── VerDetalleServlet.java
-│   │   ├── PrestarMaterialServlet.mora.java
-│   │   ├── MisPrestamosServlet.java
-│   │   ├── DevolucionesServlet.java
-│   │   ├── DevolverPrestamoServlet.java
-│   │   ├── RenovarPrestamoServlet.java
-│   │   ├── MoraServlet.java
-│   │   ├── SimularMoraServlet.java
-│   │   ├── UsuariosServlet.java
-│   │   ├── EditarUsuarioServlet.java
-│   │   ├── EliminarUsuarioServlet.java
-│   │   └── ResetearContrasenaServlet.java
-│   └── util/
-│       └── ConexionBD.java  # Utilidad de conexión a la base de datos (JNDI a través del pool de Tomcat)
-└── web/
-    ├── index.jsp            # Página de bienvenida
-    ├── login.jsp            # Vista de inicio de sesión
-    ├── buscar.jsp           # Búsqueda pública de materiales
-    ├── detalle.jsp          # Detalle de material + funcionalidad de préstamo
-    ├── misPrestamos.jsp     # Vista de préstamos personales
-    ├── devoluciones.jsp     # Vista de devoluciones / renovaciones
-    ├── mora.jsp             # Vista de moras y simulaciones (ADMIN)
-    ├── usuarios.jsp         # Vista de gestión de usuarios (ADMIN)
-    ├── editarUsuario.jsp    # Edición individual de usuario
-    ├── logout.jsp           # Acción de cierre de sesión
-    ├── WEB-INF/
-    │   ├── web.xml          # Configuración de servlets
-    │   └── context.xml      # Pool de conexión a MySQL (JNDI)
+
 
 ---
 
