@@ -1,5 +1,5 @@
 
-# 📚 Biblioteca Digital Web - Colegio Amigos de Don Bosco
+#  Biblioteca Digital Web - Colegio Amigos de Don Bosco
 
 Este es un sistema web completo de gestión de biblioteca, desarrollado con tecnologías Java EE. Permite a los usuarios consultar materiales bibliográficos, realizar préstamos según su rol, simular moras, y a los administradores gestionar usuarios, devoluciones y morosidades.
 
