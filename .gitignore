@@ -1,0 +1,12 @@
+build/
+nbproject/private/
+nbbuild/
+nbdist/
+*.class
+*.log
+dist/
+*.iml
+.idea/
+/webapps/
+/web/WEB-INF/lib/*.jar
+/web/WEB-INF/classes/
