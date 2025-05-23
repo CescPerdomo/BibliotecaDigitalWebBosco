@@ -111,7 +111,4 @@ http://localhost:8081/biblioteca-web/
  Autor
 CESAR ERNESTO PERDOMO GUERRERO
 Carnet: PG241690
-## Appendix
-
-Any additional information goes here
 
