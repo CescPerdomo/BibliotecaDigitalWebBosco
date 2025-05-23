@@ -80,10 +80,9 @@ biblioteca-web/
 │ ├── web.xml # Configuración de servlets
 │ └── context.xml # Pool de conexión a MySQL (JNDI)
 
-
 ---
 
-## 🔐 Roles del Sistema
+##  Roles del Sistema
 
 | Rol        | Permisos                                                                 |
 |------------|--------------------------------------------------------------------------|
@@ -108,7 +107,7 @@ biblioteca-web/
 
 Ubicado en: `web/WEB-INF/context.xml`
 
-```xml
+
 <Context>
     <Resource name="jdbc/biblioteca" auth="Container"
               type="javax.sql.DataSource"
